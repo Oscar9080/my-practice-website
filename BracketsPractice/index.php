@@ -1,1 +1,1 @@
-<?php header('Location:/OscarsPractice.html');?>
+<?php header'Location:/OscarsPractice.html;?>
