@@ -1,0 +1,88 @@
+body {background-color: black;}
+body{
+font-family: serif;
+text-align: center;
+}
+
+header {
+    letter-spacing: 2px;
+    background: White;
+    color: black;
+    padding: 5px;
+    box-shadow: 10px 10px 10px rgba(0,0.2,0.2,0.2);
+    margin: 20px;
+}
+
+.container {
+display: A;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+section{
+    padding: 30px;
+    margin-bottom: 40px;
+        }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.card {
+border: 1px solid black;
+background-color: white;
+margin: 30px;
+padding: 30px;
+flex-basis: 325px;
+box-shadow: 10px 10px 10px rgba(0.3,1,0.2,0.2);
+}
+
+@nedua screen and (min-width: 50em) 
+
+    td {
+padding: 20px;
+}
+
+table {
+margin: auto;
+}
+    
+.t01 { 
+width: 10;
+background-color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background: white;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+
+
